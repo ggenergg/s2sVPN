@@ -141,11 +141,13 @@ wr
 
 
 @BLDG-PH
+sudo su
 ifconfig eth0 10.10.10.10 netmask 255.255.255.0 up
 route add default gw 10.10.10.11
 
 
 @BLDG-JP
+sudo su
 ifconfig eth0 20.20.20.20 netmask 255.255.255.0 up
 route add default gw 20.20.20.12
 
